@@ -18,3 +18,4 @@ C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\ConsoleUI\obj
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\ConsoleUI\obj\Debug\netcoreapp2.1\ConsoleUI.pdb
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\ConsoleUI\bin\Debug\netcoreapp2.1\Core.dll
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\ConsoleUI\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\ConsoleUI\obj\Debug\netcoreapp2.1\ConsoleUI.genruntimeconfig.cache
