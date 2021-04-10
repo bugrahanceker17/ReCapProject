@@ -33,7 +33,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Brand>> GetBrands()
         {
-            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll());
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(),Messages.BrandsListed);
         }
 
         public IResult Update(Brand brand)

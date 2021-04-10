@@ -11,17 +11,17 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-
+            
 
             //RentDetailTest();
             //RentalAdded();
             //RentalTest();
             //UserTest();
-            //CustomerTest();
+            CustomerTest();
             //ColorAdded();
             //BrandAdded();
             //CarAdded();
-            CarTest();
+            //CarTest();
             //ColorTest();
             //BrandTest();
 
@@ -75,10 +75,12 @@ namespace ConsoleUI
         private static void CustomerTest()
         {
             CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
-            foreach (var customer in customerManager.GetAll().Data)
-            {
-                Console.WriteLine("{0} --- {1}", customer.UserId, customer.CompanyName);
-            }
+            //foreach (var customer in customerManager.GetAll().Data)
+            //{
+            //    Console.WriteLine("{0} --- {1}", customer.UserId, customer.CompanyName);
+            //}
+            Console.WriteLine(customerManager.GetById(1));
+            
         }
 
         private static void ColorAdded()

@@ -11,7 +11,9 @@ namespace Business.Constants
         public static string CarUpdated = "Araba güncellendi.";
         public static string CarNameInvalid = "Geçersiz isim!";
         public static string CarsListed = "Arabalar listelendi.";
+        public static string CarListed = "Araba gösterildi.";
 
+        public static string BrandsListed = "Markalar listelendi.";
         public static string BrandAdded = "Marka eklendi.";
         public static string BrandUpdated = "Marka güncellendi.";
         public static string BrandDeleted = "Marka silindi.";
@@ -24,12 +26,15 @@ namespace Business.Constants
         public static string CustomerUpdated = "Müşteri güncellendi";
         public static string CustomerDeleted = "Müşteri silindi";
         public static string CustomersListed = "Müşteriler listelendi.";
-        public static string GetCustomer = "Müşteri getirildi.";
+        public static string GetCustomer = "Müşteri gösterildi.";
 
         public static string UsersListed = "Kullanıcılar listelendi.";
         public static string UserAdded = "Kullanıcı eklendi.";
+        public static string UserListed = "Kullanıcı getirildi.";
 
         public static string RentalAdded = "Kiralama işlemi yapıldı.";
+        public static string GetRental = "Kiralama işlemi gösterildi.";
+        public static string RentalsListed = "Tüm kiralama işlemleri listelendi";
 
         public static string MaintenanceTime = "Sistem şuanda bakımda... Lütfen daha sonra tekrar deneyiniz...";
     }
