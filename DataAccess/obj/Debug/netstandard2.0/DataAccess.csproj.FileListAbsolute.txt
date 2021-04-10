@@ -10,3 +10,5 @@ C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\DataAccess\ob
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb

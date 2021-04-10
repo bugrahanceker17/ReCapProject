@@ -7,3 +7,6 @@ C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\obj\
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2017\Projects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
