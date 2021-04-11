@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rXqUF3ePfNjTGVwkQtYapHMwBVY6GU7sFTGMS20+EIv1cIUwGwzqU+VOFETVySKZrvQ2g+OiX/CbnxoK/9PCmg==",
+  "dgSpecHash": "F5bOUKKrbywx7dkK4pmXNPi+t/UXn+/eFx8AID1E1dWndcPWjvuQJu8Wu8Ju39CgaWGvGltwAHb5heykOnI0MA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2017\\Projects\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\10.0.2\\fluentvalidation.10.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

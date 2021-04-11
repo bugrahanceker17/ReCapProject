@@ -49,6 +49,15 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
+      "FluentValidation/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -1770,6 +1779,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.1.0",
+          "Autofac.Extras.DynamicProxy": "6.0.0",
+          "FluentValidation": "10.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "compile": {
@@ -1872,6 +1884,24 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "FluentValidation/10.0.2": {
+      "sha512": "5jKQ9hhXQRobK8pmADPKEdtbo365q/dWQZtGUZYNZRL2Nd+nm1vMcKxMiFFTtg4fLX1BjkvA6QF0bfZqMKo0Ww==",
+      "type": "package",
+      "path": "fluentvalidation/10.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.0.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -6380,6 +6410,7 @@
       "Autofac.Extras.DynamicProxy >= 6.0.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
+      "FluentValidation >= 10.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -6444,6 +6475,10 @@
           "Autofac.Extras.DynamicProxy": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[10.0.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
