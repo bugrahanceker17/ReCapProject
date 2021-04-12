@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jexpz9ohSnTAOCtSgwwt3Uw77e3hKCxNHboLWdBpB64TLiCZnO5klLABeEge+rZAlBGKU7/Mx5Q2VIRAwKIHTw==",
+  "dgSpecHash": "zangY5crfPCSUkXISA+6y21cwoqDLwZMQb4BA6VVFZklaC/73fIlstOT9PKmAZjcSFksx5QOfoKuROwuRkYzwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2017\\Projects\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\10.0.2\\fluentvalidation.10.0.2.nupkg.sha512",

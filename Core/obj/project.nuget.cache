@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "N9Gsecm+pmwCphpAT3YvQmj+YaULxJMZhaZRj6pKmWP/FagUEJqxRQ3IUwvmVP0q3QMbZXkOcg2ugKjqrGzIOg==",
+  "dgSpecHash": "WS076dv3gf/eUVZE1J9Pp7BWxLQCzNLRtFWvR8ZDKzSKBeZnUA1dWHUyJLDIDjQv69cyT6qOjewcvcXffADaJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2017\\Projects\\ReCapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\10.0.2\\fluentvalidation.10.0.2.nupkg.sha512",
