@@ -36,6 +36,13 @@ namespace Business.Constants
         public static string GetRental = "Kiralama işlemi gösterildi.";
         public static string RentalsListed = "Tüm kiralama işlemleri listelendi";
 
+        public static string CarImagesListed = "Arabaya ait resimler listelendi.";
+        public static string CarImageAdded = "Araba resmi eklendi.";
+        public static string CarImageUpdated = "Araba resmi güncellendi.";
+        public static string CarImageDeleted = "Araba resmi silindi.";
+        public static string CarImageNotFound = "Araba resmi bulunamadı.";
+
         public static string MaintenanceTime = "Sistem şuanda bakımda... Lütfen daha sonra tekrar deneyiniz...";
+        
     }
 }
