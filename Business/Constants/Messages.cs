@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -31,6 +32,9 @@ namespace Business.Constants
         public static string UsersListed = "Kullanıcılar listelendi.";
         public static string UserAdded = "Kullanıcı eklendi.";
         public static string UserListed = "Kullanıcı getirildi.";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string UserAlreadyExists = "Kullanıcı zaten var";
+        public static string UserRegistered = "Kullanıcı kaydı başarılı";
 
         public static string RentalAdded = "Kiralama işlemi yapıldı.";
         public static string GetRental = "Kiralama işlemi gösterildi.";
@@ -43,6 +47,9 @@ namespace Business.Constants
         public static string CarImageNotFound = "Araba resmi bulunamadı.";
 
         public static string MaintenanceTime = "Sistem şuanda bakımda... Lütfen daha sonra tekrar deneyiniz...";
+        
+        public static string PasswordError = "Hatalı parola";
+        public static string SuccessfulLogin = "Giriş başarılı";
         
     }
 }
