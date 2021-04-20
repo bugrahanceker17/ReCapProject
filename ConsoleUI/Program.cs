@@ -11,19 +11,19 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            
 
-            //RentDetailTest();
-            //RentalAdded();
-            //RentalTest();
-            //UserTest();
+
+            RentDetailTest();
+            RentalAdded();
+            RentalTest();
+            UserTest();
             CustomerTest();
-            //ColorAdded();
-            //BrandAdded();
-            //CarAdded();
-            //CarTest();
-            //ColorTest();
-            //BrandTest();
+            ColorAdded();
+            BrandAdded();
+            CarAdded();
+            CarTest();
+            ColorTest();
+            BrandTest();
 
             Console.ReadLine();
         }
@@ -66,7 +66,7 @@ namespace ConsoleUI
         private static void UserTest()
         {
             UserManager userManager = new UserManager(new EfUserDal());
-            foreach (var user in userManager.GetAllUser().Data)
+            foreach (var user in userManager.GetAll().Data)
             {
                 Console.WriteLine("{0}  |  {1}  |  {2} ", user.FirstName, user.LastName, user.Email);
             }
@@ -132,7 +132,7 @@ namespace ConsoleUI
         private static void BrandTest()
         {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
-            foreach (var brand in brandManager.GetBrands().Data)
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine(brand.Name);
             }

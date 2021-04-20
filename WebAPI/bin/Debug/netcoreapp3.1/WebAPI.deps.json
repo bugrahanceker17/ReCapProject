@@ -1530,11 +1530,13 @@
       "Business/1.0.0": {
         "dependencies": {
           "Autofac": "6.1.0",
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
           "Autofac.Extras.DynamicProxy": "6.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
           "FluentValidation": "10.0.2",
-          "Microsoft.AspNetCore.Http": "2.2.2"
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
         },
         "runtime": {
           "Business.dll": {}

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
 using System.Linq;
+using Core.Aspects.Autofac.Performance;
 
 namespace Core.Utilities.Interceptors
 {
@@ -16,6 +17,7 @@ namespace Core.Utilities.Interceptors
             var methodAttributes = type.GetMethod(method.Name)
                 .GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
             classAttributes.AddRange(methodAttributes);
+            classAttributes.Add(new PerformanceAspect(7));
 
             return classAttributes.OrderBy(x => x.Priority).ToArray();
         }

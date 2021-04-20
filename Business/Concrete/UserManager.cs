@@ -22,7 +22,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.UserAdded);
         }
 
-        public IDataResult<List<User>> GetAllUser()
+        public IDataResult<List<User>> GetAll()
         {
             return new SuccessDataResult<List<User>>(_userDal.GetAll(),Messages.UsersListed);
         }

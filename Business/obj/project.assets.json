@@ -6769,11 +6769,13 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Autofac >= 6.1.0",
+      "Autofac.Extensions.DependencyInjection >= 7.1.0",
       "Autofac.Extras.DynamicProxy >= 6.0.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "FluentValidation >= 10.0.2",
       "Microsoft.AspNetCore.Http >= 2.2.2",
+      "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -6835,6 +6837,10 @@
             "target": "Package",
             "version": "[6.1.0, )"
           },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
           "Autofac.Extras.DynamicProxy": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -6846,6 +6852,10 @@
           "Microsoft.AspNetCore.Http": {
             "target": "Package",
             "version": "[2.2.2, )"
+          },
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

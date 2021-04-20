@@ -6,7 +6,7 @@ namespace Business.Abstract
 {
     public interface IUserService
     {
-        IDataResult<List<User>> GetAllUser();
+        IDataResult<List<User>> GetAll();
         List<OperationClaim> GetClaims(User user);
         User GetByMail(string email);
         IDataResult<User> GetById(int userId);
